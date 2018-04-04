@@ -1,3 +1,6 @@
+#author: whz
+#lib_info_page:http://html.python-requests.org/
+
 from requests_html import HTMLSession
 import os
 NOVEL_CHAPTERS = "http://www.xbiquge.cc/book/28810/"
