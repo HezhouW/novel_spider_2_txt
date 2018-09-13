@@ -3,7 +3,7 @@
 
 from requests_html import HTMLSession
 import os
-NOVEL_CHAPTERS = "http://www.xbiquge.cc/book/28810/"
+NOVEL_CHAPTERS = "http://www.banzhu111.cc/shu/0/496/"
 
 session = HTMLSession()
 
@@ -38,4 +38,3 @@ if __name__ == '__main__':
         main_body += text
     with open('text.txt', 'wt') as fileout:
         fileout.write(main_body)
-
